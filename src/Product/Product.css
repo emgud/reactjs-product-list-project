@@ -1,0 +1,54 @@
+.product{
+
+  text-align: center;
+  background: rgba(231, 232, 232, 0.58);
+}
+
+table {
+  margin-top: 2%;
+  font-family: sans-serif;
+  font-family: 'Bellota Text', cursive;
+  font-size: 16px;
+  border: 2px solid rgb(8, 11, 9);
+
+}
+
+thead{
+  border: 3px solid rgb(8, 11, 9);
+}
+
+td, th {
+  border: 2px solid rgb(8, 11, 9);
+  text-align: left;
+  padding: 8px;
+
+}
+
+thead th{
+  font-family: 'Source Sans Pro', sans-serif;
+  color:rgb(32, 33, 36);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(231, 232, 232, 0.86);
+}
+
+.product-list{
+    width: 85%;
+    margin:auto;
+    margin-bottom: 10%;
+}
+
+.product-img{
+  width: 170px;
+  height: 180px;
+
+}
+
+.new-product{
+  text-align: right;
+}
+
+.new-product{
+  display: flex !important;
+}
